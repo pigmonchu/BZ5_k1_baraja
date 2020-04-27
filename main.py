@@ -1,5 +1,6 @@
 import cartas
 
-b1 = cartas.crea_baraja()
-b2 = cartas.crea_baraja()
+b = cartas.crea_baraja()
+manos = cartas.repartir(b, 3, 5)
 
+print(manos)
