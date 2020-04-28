@@ -1,6 +1,5 @@
-import cartas
+import ccartas
 
-b = cartas.crea_baraja()
-manos = cartas.repartir(b, 3, 5)
-
-print(manos)
+mi_b = ccartas.Baraja()
+mi_b.mezclar()
+print(mi_b.naipes)
